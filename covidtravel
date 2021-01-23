@@ -1,7 +1,72 @@
-echo "# covidtravelsafety" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/patriciacarias/covidtravelsafety.git
-git push -u origin main
+question1 = input("Traveling during COVID-19 requires that you self-quarantine for at least 2 weeks upon arrival back into the U.S.\n Would you still like to travel?    1) Absolutely, 2) No, thanks maybe another time") 
+
+print(" ")
+if question1 == "1" or question1 == "Absolutely":
+  question2 = input("What is your dream travel destination,\n 1) Paris, 2) Italy, 3) Belize, 4) Bermuda, 5) Outer Space, 6) Anywhere else?")
+  if question2 == "1": 
+   print (" ")
+   print ("You picked paris!!! Take pictures under the Eiffel tower but travel in small groups and don’t forget your mask!")
+  if question2 == "2": 
+    print ("")
+    print("Italy, awesome choice!!! Unfortunately,as of right now Italian boarders are only open to citizens of the EU and UK area \n but if you are lucky enough to be from one of these areas, be sure to visit the leaning tower of Pisa!")
+    
+
+  if question2 == "3":
+      print(" ")
+      print("Belize wow!!! So beautiful but make sure to get tested!!! \n Country restrictions require you to take a covid19 test 72 hours before entering.")
+
+  if question2 == "4":
+        print("")
+        print ("Bermuda! Try not to get lost in the triangle!\n Enjoy its gorgeous blue waters and be sure to visit the beach but take an extra $75 for travel authorization during this pandemic.")
+        
+  if  question2 == "5":
+    print("")
+    print ("Wooo you picked outer space! You don’t need a mask, but you do need a spacesuit and space shuttle!")
+
+  if question2 == "6":
+    print ("")
+    print ("Most boarders haven’t opened up yet but for more information on your desired location \n visit https://www.cdc.gov/coronavirus/2019-ncov/travelers/map-and-travel-notices.html ,have fun traveling and make sure to social distance, take a mask and hand sanitizer")
+#elif question1 == "Absolutely":
+  #question2 = input("What is your dream travel destination, 1) Paris, 2) Italy, 3) Belize, 4) Bermuda, 5) Outer Space, 6) Anywhere else?")
+elif question1 == "2":
+    print(" ")
+    print("Okay stay safe and come again when you're ready")
+  
+else:
+  print("Try again, please choose one of the options")
+    
+
+# #if question2 == "1": 
+#    print (" ")
+#    print ("You picked paris!!! Take pictures under the Eiffel tower but travel in small groups and don’t forget your mask!")
+# if question2 == "2": 
+#     print ("")
+#     print("Italy, awesome choice!!! Unfortunately,as of right now Italian boarders are only open to citizens of the EU and UK area but if you are lucky enough to be from one of these areas, be sure to visit the leaning tower of Pisa!")
+    
+
+# if question2 == "3":
+#       print(" ")
+#       print("Belize wow!!! So beautiful but make sure to get tested!!! Country restrictions require you to take a covid19 test 72 hours before entering.")
+
+# if question2 == "4":
+#         print("")
+#         print ("Bermuda! Try not to get lost in the triangle! Enjoy its gorgeous blue waters and be sure to visit the beach but take an extra $75 for travel authorization during this pandemic.")
+        
+# if  question2 == "5":
+#     print("")
+#     print ("Wooo! You don’t need a mask, but you do need a spacesuit and space shuttle!")
+
+# if question2 == "6":
+#     print ("")
+#     print ("Most boarders haven’t opened up yet but for more information on your desired location visit https://www.cdc.gov/coronavirus/2019-ncov/travelers/map-and-travel-notices.html ,have fun traveling and make sure to social distance, take a mask and hand sanitizer")
+
+
+  
+#if question1 == "2":
+  
+
+  #print("Okay, stay safe")
+
+
+
+#print("Would you still like to travel? 1) Absolutely! , 2) No, thanks maybe another time")
